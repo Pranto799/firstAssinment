@@ -26,6 +26,10 @@
 
 }
 
+.green{
+    color: #30B868;
+}
+
 
 /* main styles */
 
@@ -59,4 +63,72 @@ nav .menu{
 nav .menu li{
     font-size: 16px;
     color: #000000;
+}
+
+#banner{
+    padding: 115.5px 120px 179.5px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: none;
+}
+
+#banner .banner-content{
+    width: 90%;
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner-content div p{
+    width:90%;
+    max-width: 229px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: medium;
+    margin: 0px 565.5px 16px 565.5px;  ;
+    
+}
+
+.banner-content h1{
+    width: 90%;
+    max-width: 770px;
+    margin:0px 295px 15px 295px;
+    color: #FFFFFF;
+    font-size: 72px;
+    line-spacing: 8%;
+
+   
+}
+
+.banner-content p{
+    width: 90%;
+     max-width: 770px;
+    margin:0px 295px 15px 295px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: regular;
+    line-height: 24px;
+    color: #FFFFFF;
+   
+}
+
+.banner-content .button{
+    display: flex;
+    margin: 32px 477.5px 0 477.5px; 
+    max-width: 465px;
+    gap: 16px;
+}
+
+#Unique{
+   background: none;
+   border: 2px solid #FFFFFF;
+    max-width: 198px;
+}
+
+.banner-content .button .btn{
+    width:90%;
+    max-width: 251px;
 }
