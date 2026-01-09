@@ -36,6 +36,11 @@
 
 }
 
+#Unique:hover{
+    background-color: #5d6973;
+    box-shadow: 0px 10px 50px 0 #04040426;
+}
+
 .skill-card:hover{
 
      box-shadow: 0px 20px 100px 0 #0404046f;
