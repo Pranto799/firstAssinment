@@ -16,7 +16,7 @@
     border: none;
     border-radius: 4px;
     background-color: #469165;
-    max-width: 164px;
+   
     color: #FFFFFF;
     padding: 12.5px 16px;
     cursor: pointer;
@@ -103,9 +103,18 @@ nav .menu li{
    
 }
 
+.extra{
+    max-width: 229px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: medium;
+}
+
 .banner-content p{
     
-     max-width: 770px;
+    max-width: 770px;
     margin:0px 295px 15px 295px;
     text-align: center;
     font-size: 18px;
@@ -162,8 +171,8 @@ nav .menu li{
 .note_box{
     display: flex;
     justify-content: space-between;
-    margin-top: 44px;
-    margin-bottom: 62px;
+    padding : 44px 120px 62px 120px;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -271,4 +280,44 @@ nav .menu li{
 
 }
 
+#Early_Access .early_access-container{
+    max-width: 1600px;
+    margin: 0px auto;
+    text-align: center;
+}
 
+.early_access-container .access-content{
+    max-width: 1360px;
+    max-height: 384px;
+    margin: 2px 120px 120px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.access-content h2{
+    font-size: 40px;
+    line-height: auto;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.Text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: regular;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.access-content .btn{
+    max-width: 194px;
+    
+}
+
+.access_below p{
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
